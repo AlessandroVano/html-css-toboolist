@@ -12,3 +12,28 @@ body {
     /* Sfondo pagina */
     background-color:  rgb(226, 226, 226);
 }
+
+header {
+    /* spazio il contenuto verso il basso */
+    margin-bottom: 40px;
+    /* distanza tra il contenuto e il bordo del blocco (la pagina in questo caso) 10px (sopra e sotto) 20px (destra e sinistra) */
+    padding: 10px 20px;
+    /* sfondo header in questo caso bianco */
+    background-color: rgb(255, 254, 254);
+}
+
+.logo {
+    /* allinea verticalmente tutto ciò che c'è su questa linea di codice */
+    vertical-align: middle;
+}
+
+.logo-text {
+    /* grassetto testo affianco al logo */
+    font-weight: 750;
+
+    /* grandezza testo */
+    font-size: 38px;
+
+    /* allinea verticalmente tutto ciò che c'è su questa linea di codice */
+    vertical-align: middle;
+}
