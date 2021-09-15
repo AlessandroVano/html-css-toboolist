@@ -4,3 +4,11 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+body {
+    /* stile caratteri */
+    font-family: sans-serif;
+
+    /* Sfondo pagina */
+    background-color:  rgb(226, 226, 226);
+}
