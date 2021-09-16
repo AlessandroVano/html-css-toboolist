@@ -1,4 +1,4 @@
-/* General Styles */
+/* GENERAL STYLES */
 * {
     margin: 0%;
     padding: 0%;
@@ -13,6 +13,25 @@ body {
     background-color:  rgb(226, 226, 226);
 }
 
+/* UTILYTIES */
+/* tutto ciò che sarà dentro al div avrà queste caratteristiche perchè gli ho dato una classe */
+
+ .container{
+     /* impostata larghezza dell'elemento */
+     width: 60%;
+     
+     /* impostati i margini di tutti gli elementi del container 0% (sopra e sotto) , auto (imposta di default destra e sinistra per centrarsi in automatico */
+     margin: 0% auto;
+
+     /* sfondo contesto  */
+     background-color: white;
+
+     /* arrotonda i bordi dello sfondo (scrivendo solo così li arrotonda in tutti e 4 i lati) */
+     border-radius: 5px;
+
+ }
+
+ /* HEADER SECTION */
 header {
     /* spazio il contenuto verso il basso */
     margin-bottom: 40px;
