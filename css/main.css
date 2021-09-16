@@ -19,7 +19,7 @@ body {
  .container{
      /* impostata larghezza dell'elemento */
      width: 60%;
-     
+
      /* impostati i margini di tutti gli elementi del container 0% (sopra e sotto) , auto (imposta di default destra e sinistra per centrarsi in automatico */
      margin: 0% auto;
 
@@ -55,4 +55,40 @@ header {
 
     /* allinea verticalmente tutto ciò che c'è su questa linea di codice */
     vertical-align: middle;
+}
+
+/* SEZIONE CLASSE ACTION */
+
+.action {
+    /* distanza dei due bottoni dal bordo di 10px (sopra e sotto)  50px (destra e sinistra*/
+    padding: 10px 50px;
+
+    /* con questo ho impostato il bordo inferiore di colore grigio (altrimenti avrei dovuto mettere un hr di questo colore, è un modo per ottimizzare questa procedura) */
+    border-bottom: 2px solid
+    rgb(230, 224, 224) ;
+}
+
+/* SEZIONE BOTTONI NELLA CLASSE ACTION */
+
+.button {
+    /* ingrandimento bottino allungandoli sopra e sotto (5px)
+    allungamento a destra e sinistra (10px) */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.button-background {
+    /* colore del testa all'interno del bottone */
+    color: white;
+    /* colore dello sfondo */
+    background-color: rgb(87, 126, 255);
+    /* colore del bordo */
+    border: 1px solid  rgb(87, 126, 255);
+}
+
+.button-no-background {
+    background-color: transparent;
+    color: rgb(218, 216, 216);
+    border: 1px solid   rgb(218, 216, 216)
 }
