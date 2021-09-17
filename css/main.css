@@ -32,6 +32,12 @@ body {
 
  }
 
+ .container2 {
+     margin-top: 20px;
+ }
+
+
+
  /* HEADER SECTION */
 header {
     /* spazio il contenuto verso il basso */
@@ -163,4 +169,12 @@ li {
 
 .type-4 {
     background: orange;
+}
+
+.type-5 {
+    background: rgb(238, 162, 175);
+}
+
+.type-6 {
+    background-color: rgb(131, 201, 25);
 }
