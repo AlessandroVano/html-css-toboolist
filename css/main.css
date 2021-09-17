@@ -71,10 +71,12 @@ header {
 /* SEZIONE BOTTONI NELLA CLASSE ACTION */
 
 .button {
-    /* ingrandimento bottino allungandoli sopra e sotto (5px)
+    /* ingrandimento bottoni allungandoli sopra e sotto (5px)
     allungamento a destra e sinistra (10px) */
     padding: 5px 10px;
-    border-radius: 5px;
+    /* arrotondamento bordi */
+    border-radius: 5px;/* grsndezza caratteri */
+
     font-size: 12px;
 }
 
@@ -92,3 +94,36 @@ header {
     color: rgb(218, 216, 216);
     border: 1px solid   rgb(218, 216, 216)
 }
+
+/* SEZIONE 1 TASK */
+.task {
+    /* distanza del contenuto dal bordo */
+    padding: 30px 50px;
+}
+
+/* SEZIONE NEW TASK */
+
+.gruppo-task {
+    margin-bottom: 25%;
+    color:#444851
+}
+
+li {
+    /* NON FA METTERE I PALLINI */
+    list-style: none;
+    /* FAI LO SPAZIO LE LETTERE TRA UNA LISTA E L'ALTRA */
+    padding: 10px 0 ;
+}
+.spunta-letti {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    ;
+    margin-right: 5px;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    /* per centrare bene il tutto */
+    vertical-align: middle;
+}
+
