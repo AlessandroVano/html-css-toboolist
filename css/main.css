@@ -3,6 +3,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
@@ -121,9 +122,45 @@ li {
     ;
     margin-right: 5px;
     border-radius: 50%;
-    font-size: 15px;
+    font-size: 7px;
     text-align: center;
     /* per centrare bene il tutto */
     vertical-align: middle;
 }
 
+.check {
+    color: rgb(34, 204, 99);
+    border: 1px solid currentColor ;
+    line-height: 16px
+}
+
+.delete{
+    color: tomato;
+    border: 1px solid currentColor ;
+    line-height: 14px
+}
+
+.tag {
+    padding: 5px 10px;
+ font-size: 10px;
+ color: white;
+ border-radius: 10px;
+ vertical-align: middle;
+}
+
+.type-1 {
+    background:  rgb(87, 126, 255);
+    
+}
+
+.type-2 {
+    background:rgb(5, 170, 5) ;
+}
+
+.type-3 {
+    background-color: rgb(170, 54, 216);
+}
+
+.type-4 {
+    background: orange;
+}
